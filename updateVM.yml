@@ -1,8 +1,8 @@
-name: UpdateVM
-hosts: all
-become: yes
+- name: UpdateVM
+  hosts: all
+  become: yes
 
-tasks:
-- name: Ping
-  ping:
+  tasks:
+  - name: Ping
+    ping:
   
